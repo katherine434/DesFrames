@@ -9,10 +9,28 @@
 }
 
 
-.navegador{
-	text-align: center !important;
-	text-align: center; 
-	padding: 5px;
+#navegacion{
+	text-align: center;
+	width: 100%;
 
 }
 
+.imagen{
+	width: 100%;
+	padding: 85px 0 85px 0;
+	/*box-shadow: 2px 2px 5px black;*/
+
+}
+
+#buscar{
+	padding: 10px 0 10px 0;
+}
+
+.list-group-item:hover{
+	background-color: #EEEED8;
+}
+
+#nombre{
+	border-top: solid 2px black;
+	text-align: center;
+}

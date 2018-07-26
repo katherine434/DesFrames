@@ -13,7 +13,7 @@
 
 				<div class="col-sm-8" style="padding: 20px;">
 					<img src="imagenes/logo.png" style="width: 150px">
-					<b style="color: white;">Musica favorita</b>
+					<b style="color: white;">SAMUEL COLMENARES</b>
 				</div>
 
 				<div class="col-sm-4 redes" id="redSocial">		
@@ -27,50 +27,104 @@
 			</div>
 		</header>
 
-		<nav class="container navbar navbar-default">
-			<div class="row" style="margin: auto;">
-				<div class="col-sm-2 nav navbar-nav navegador">
-					<li><a class="navbar-brand" href="#">Inicio</a></li>
-				</div>
-				<div class="col-sm-2 nav navbar-nav navegador">
-					<li><a class="navbar-brand" href="#">Artista</a></li>
-				</div>
-				<div class="col-sm-2 nav navbar-nav navegador">
-					<li><a class="navbar-brand" href="#">Grupos</a></li>
-				</div>
-				<div class="col-sm-2 nav navbar-nav navegador">
-					<li><a class="navbar-brand" href="#">Top 10</a></li>
-				</div>
-				<div class="col-sm-2 nav navbar-nav navegador">
-					<li><a class="navbar-brand" href="#">Letras</a></li>
-				</div>
-				<div class="col-sm-2 nav navbar-nav navegador">
-					<li><a class="navbar-brand" href="#">Acordes</a></li>
-				</div>
+		<nav class="container navbar navbar-inverse" >
+			<div class="container-fluid row">
+				<ul class="nav navbar-nav" id="navegacion">
+					<li class="col-sm-2"><a href="">Inicio</a></li>
+					<li class="col-sm-2"><a href="">Artistas</a></li>
+					<li class="col-sm-2"><a href="">Grupos</a></li>
+					<li class="col-sm-2"><a href="">Top 10</a></li>
+					<li class="col-sm-2"><a href="">Letras</a></li>
+					<li class="col-sm-2"><a href="">Acordes</a></li>
+				</ul>
 			</div>
 		</nav>
 
-		<section class="container" style="background-color: purple; ">
-			
+		<section class="container" >			
 			<div class="row">
-				<div class="col-sm-6" style="border: solid 1px black; background-color: yellow; ">
-					4 Conteido
-				</div>
 
-				<div class="col-sm-6" style="border: solid 1px black; background-color: red;">
-					5 Buscador 
+				<div class="col-sm-8">
+					<div class="row">
 
-					<div class="row
-					">
-						<div class="col-sm-12" style="border: solid 1px black; background-color: blue;">
-							6 Opciones de búsqueda	
-						</div>	
+						<div class="col-sm-8">
+						<h2>Música</h2>
+						<p>
+							A parte de escuchar mi música favorita (Es muy variada), tengo un gusto particular sobre un género en específico, en el cual soy participante. Soy cantante de música gregoriana con un grupo de chicas jóvenes. Nuestro proyecto tiene la misión de enseñar a las personas el origen y la escritura de la música.
+						</p>
+
+						<p>
+							El proyecto lo lidera nuestra maestra. Ella nos dirige y nos motiva. Nuestra meta, en la cual todas estamos enfocadas en lograrlo y cumplirlo, es llegar a diferentes partes de Colombia y mostrar lo que somos y así salir del País y mostrarlo al resto del mundo.
+						</p>
+
+						<p>
+							La música gregoriana no solo es música antigua, es una cultura llena y rica de historia, es el papá de toda la música moderna, su estructura y su escritura nacieron de ahí. Fue evolucionando a la música polifónica, barroca, opera y a la que en hoy en día conocemos.
+						</p>
+						</div>
+						<div class="col-sm-4">
+							<img class="imagen" src="imagenes/monje.png">
+						</div>
+					</div>
+
+					<div class="form-group">
+						<textarea class="form-control" rows="5" id="comment" placeholder="Comentario"></textarea>
+					</div>
+
+
+					<div class="row">
+
+						<div class="col-sm-4">
+							<img class="imagen" src="imagenes/tetragrama.png">
+						</div>						
+
+						<div class="col-sm-8">
+						<h2 style="text-align: right;">Notación musical</h2>
+						<p>
+							La notación musical, masomenos abarca unos dos mil dieciocho años, 1​ desde los primeros símbolos alfabéticos del mundo grecolatino hasta las últimas tendencias de notación abstracta usadas en la actualidad.
+						<p/>
+
+						<p>
+							La notación neumatica es la notación más antigua. Tomado del griego πνεῦμα, transliterado al románico como pneuma y simplificada en español como neuma; cuyo significado es "espíritu, soplo, respiración"
+						</p>
+						</div>
+
+					</div>
+
+					<div class="form-group">
+						<textarea class="form-control" rows="5" id="comment" placeholder="Comentario"></textarea>
 					</div>
 				</div>
-				
-			</div>
 
+				<div class="col-sm-4">
+					
+					<form id="buscar">
+						<div class="input-group">
+							<input type="text" class="form-control" placeholder="Buscar">
+							<div class="input-group-btn">
+								<button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-search"></i></button>	
+							</div>							
+						</div>
+					</form>
+
+					<div class="hidden-xs">
+						<ul class="list-group">
+							<li class="list-group-item"> Partituras </li>
+							<li class="list-group-item"> Pinturas </li>
+							<li class="list-group-item"> Historia </li>
+							<li class="list-group-item"> Música </li>
+							<li class="list-group-item"> Notación Neumática </li>
+							<li class="list-group-item"> Tetragrama </li>
+							<li class="list-group-item"> <a href=""></a> </li>
+						</ul>
+					</div>						
+				</div>
+			</div>
 		</section>
 
+		<br><br>
+		<footer id="nombre">
+			<p>
+				Katherine Rincón Tovar
+			</p>
+		</footer>
 	</body>
 </html>
