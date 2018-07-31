@@ -45,4 +45,28 @@
 
 /* --------- Gastronimía ---------- */
 
+/*div{
+	border:solid 1px black;
 
+}*/
+
+.lineas-derecha{
+	border-right: solid 1px grey;
+}
+
+.lineas-abajo{
+	border-bottom: solid 1px grey;
+}
+
+.derecha{
+	text-align: right;
+}
+
+.espacio{
+	padding: 20px;
+}
+
+.no-espacios{
+	margin: 0;
+	padding: 0;
+}
