@@ -70,3 +70,21 @@
 	margin: 0;
 	padding: 0;
 }
+
+.margen{
+	border:solid 1px grey;
+	border-radius: 6px;
+}
+
+.espacio-arriba{
+	padding-top: 10px; 
+}
+
+.decoracion-imagenes{
+	border: solid 3px purple;
+	border-radius: 5px;
+}
+
+.lista{
+	list-style: none;
+}
