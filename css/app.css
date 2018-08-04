@@ -76,6 +76,10 @@
 	border-radius: 6px;
 }
 
+.margen:hover {
+	background-color: #E0E0E0;
+}
+
 .espacio-arriba{
 	padding-top: 10px; 
 }
