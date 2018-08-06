@@ -92,3 +92,16 @@
 .lista{
 	list-style: none;
 }
+
+
+/*------- Turismo --------*/
+
+nav {
+	background-color: transparent;
+	color: black;
+	/*box-shadow: none;*/
+}
+
+.c-negro{
+	color: black;
+}
