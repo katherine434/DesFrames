@@ -66,9 +66,21 @@
 	padding: 20px;
 }
 
+.espacio-1{
+	padding: 10px;
+}
+
 .no-espacios{
 	margin: 0;
 	padding: 0;
+}
+
+.espacio-arriba{
+	padding-top: 10px; 
+}
+
+.espacio-arriba-x3{
+	padding-top: 30px; 
 }
 
 .margen{
@@ -78,10 +90,6 @@
 
 .margen:hover {
 	background-color: #E0E0E0;
-}
-
-.espacio-arriba{
-	padding-top: 10px; 
 }
 
 .decoracion-imagenes{
@@ -99,9 +107,76 @@
 nav {
 	background-color: transparent;
 	color: black;
-	/*box-shadow: none;*/
+	box-shadow: none;
 }
 
 .c-negro{
 	color: black;
+}
+
+.redondeo{
+	border-radius:10px;
+}
+
+.imagen_x100{
+	width: 100%;
+}
+
+.imagen_x20{
+	width: 25%;
+}
+
+.fondo_blanco{
+	background-color: white; 
+}
+
+.float-left{
+	float: left;
+}
+
+/*.separado-derecha{
+	margin-right: 10px;
+}*/
+
+.mini-cont{
+	float: left;
+	margin-right: 10PX;
+	border-radius: 15px;
+	background-color: #e0e0e0;
+}
+
+.circulo{
+	border-radius: 100%;
+	width: 50%;
+}
+
+.invertir-ima{
+	transform: scaleX(-1);
+}
+
+.en-linea{
+	display: flex;
+}
+
+.fondo{
+	background-image: url(../imagenes/fondo.png);
+	background-attachment: fixed;
+	background-repeat: repeat;
+	width: 100%; 
+}
+
+.c-fondo{
+	background-color: rgba(255,255,255,0.88);
+}
+
+.c-fondo2{
+	background-color: rgba(27,167,154,0.88);
+	color: white;
+}
+
+.c-blanco{
+	color: white;
+}
+.blanco{
+	color: white;
 }
