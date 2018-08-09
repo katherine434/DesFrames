@@ -8,16 +8,15 @@
 		<link rel="stylesheet" type="text/css" href="css/app.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
-	<body>
-		<header class="container" style="background-color: #483737;" id="conIcoReds">
+	<body class="color-m">
+		<header class="container color-b" id="conIcoReds">
 			<div class="row"> 
 
-				<div class="col-sm-8" style="padding: 20px;">
-					<img src="imagenes/logo.png" style="width: 150px">
-					<b style="color: white;">SAMUEL COLMENARES</b>
+				<div class="col-sm-8">
+					<img id="logo-size" src="imagenes/logo2.png"></b>
 				</div>
 
-				<div class="col-sm-4 redes" id="redSocial">		
+				<div class="col-sm-4" id="redSocial">		
 					<div>
 						<a href=""><img src="imagenes/face.png"></a>
 						<a href=""><img src="imagenes/insta.png"></a>
@@ -28,15 +27,15 @@
 			</div>
 		</header>
 
-		<nav class="container navbar navbar-inverse" >
+		<nav class="container navbar navbar-default" >
 			<div class="container-fluid row">
 				<ul class="nav navbar-nav" id="navegacion">
-					<li class="col-sm-2"><a href="">Inicio</a></li>
-					<li class="col-sm-2"><a href="">Artistas</a></li>
-					<li class="col-sm-2"><a href="">Grupos</a></li>
-					<li class="col-sm-2"><a href="">Top 10</a></li>
-					<li class="col-sm-2"><a href="">Letras</a></li>
-					<li class="col-sm-2"><a href="">Acordes</a></li>
+					<li class="col-sm-2 hover1"><a href="#">Inicio</a></li>
+					<li class="col-sm-2 hover1"><a href="#">Artistas</a></li>
+					<li class="col-sm-2 hover1"><a href="#">Grupos</a></li>
+					<li class="col-sm-2 hover1"><a href="#">Top 10</a></li>
+					<li class="col-sm-2 hover1"><a href="#">Letras</a></li>
+					<li class="col-sm-2 hover1"><a href="#">Acordes</a></li>
 				</ul>
 			</div>
 		</nav>
@@ -44,11 +43,11 @@
 		<section class="container" >			
 			<div class="row">
 
-				<div class="col-sm-8">
+				<div class="col-sm-8 color-b redondeo">
 					<div class="row">
 
 						<div class="col-sm-8">
-						<h2>Música</h2>
+						<h2>Iniciación musical</h2>
 						<p>
 							A parte de escuchar mi música favorita (Es muy variada), tengo un gusto particular sobre un género en específico, en el cual soy participante. Soy cantante de música gregoriana con un grupo de chicas jóvenes. Nuestro proyecto tiene la misión de enseñar a las personas el origen y la escritura de la música.
 						</p>
@@ -62,7 +61,9 @@
 						</p>
 						</div>
 						<div class="col-sm-4">
-							<img class="imagen" src="imagenes/monje.png">
+							<div id="espacio-ima">
+								<img class="imagen" src="imagenes/monje.png">
+							</div>
 						</div>
 					</div>
 
@@ -70,6 +71,7 @@
 						<textarea class="form-control" rows="5" id="comment" placeholder="Comentario"></textarea>
 					</div>
 
+					<br><br>
 
 					<div class="row">
 
@@ -79,6 +81,7 @@
 
 						<div class="col-sm-8">
 						<h2 style="text-align: right;">Notación musical</h2>
+
 						<p>
 							La notación musical, masomenos abarca unos dos mil dieciocho años, 1​ desde los primeros símbolos alfabéticos del mundo grecolatino hasta las últimas tendencias de notación abstracta usadas en la actualidad.
 						<p/>
@@ -87,54 +90,61 @@
 							La notación neumatica es la notación más antigua. Tomado del griego πνεῦμα, transliterado al románico como pneuma y simplificada en español como neuma; cuyo significado es "espíritu, soplo, respiración"
 						</p>
 						</div>
-
 					</div>
 
 					<div class="form-group">
 						<textarea class="form-control" rows="5" id="comment" placeholder="Comentario"></textarea>
 					</div>
+					<br>
 				</div>
 
-				<div class="col-sm-4">
-					
-					<form id="buscar">
-						<div class="input-group">
-							<input type="text" class="form-control" placeholder="Buscar">
-							<div class="input-group-btn">
-								<button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-search"></i></button>	
-							</div>							
-						</div>
-					</form>
 
-					<div class="hidden-xs">
-						<ul class="list-group">
-							<li class="list-group-item"> Partituras </li>
-							<li class="list-group-item"> Pinturas </li>
-							<li class="list-group-item"> Historia </li>
-							<li class="list-group-item"> Música </li>
-							<li class="list-group-item"> Notación Neumática </li>
-							<li class="list-group-item"> Tetragrama </li>
-							<li class="list-group-item">
-								<a href="gastro.html" class="blogs">
-									<b>Blog de Gastronomía</b>
-								</a>
-							</li>
-							<li class="list-group-item">
-								<a href="turismo.html" class="blogs">
-									<b>Blog de Turismo</b>
-								</a>
-							</li>
-						</ul>
+
+				<div class="col-sm-4 ">
+					
+					<div class="hidden-xs espacio-1 color-a redondeo">
+						<form id="buscar">
+							<div class="input-group">
+								<input type="text" class="form-control" placeholder="Buscar">
+								<div class="input-group-btn">
+									<button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-search"></i></button>	
+								</div>							
+							</div>
+						</form>
+
+						<div class="hidden-xs">
+							<ul class="list-group">
+								<li class="list-group-item"> Partituras </li>
+								<li class="list-group-item"> Pinturas </li>
+								<li class="list-group-item"> Historia </li>
+								<li class="list-group-item"> Música </li>
+								<li class="list-group-item"> Notación Neumática </li>
+								<li class="list-group-item"> Tetragrama </li>
+								<li class="list-group-item"> Partituras </li>
+								<li class="list-group-item"> Pinturas </li>
+								<li class="list-group-item"> Historia </li>
+								<li class="list-group-item"> Música </li>
+								<li class="list-group-item"> Notación Neumática </li>
+								<li class="list-group-item"> Tetragrama </li>
+								<li class="list-group-item">
+									<a href="gastro.html" class="blogs">
+										<b>Blog de Gastronomía</b>
+									</a>
+								</li>
+								<li class="list-group-item"> Historia </li>
+								<li class="list-group-item"> Música </li>
+								<li class="list-group-item"> Notación Neumática </li>
+								<li class="list-group-item"> Tetragrama </li>
+								<li class="list-group-item">
+									<a href="turismo.html" class="blogs">
+										<b>Blog de Turismo</b>
+									</a>
+								</li>
+							</ul>
+						</div>
 					</div>						
 				</div>
 			</div>
 		</section>
-
-		<br><br>
-		<footer id="nombre">
-			<p>
-				Katherine Rincón Tovar
-			</p>
-		</footer>
 	</body>
 </html>

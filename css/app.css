@@ -1,7 +1,14 @@
+/*     Música   */
+
 #redSocial{
 	text-align: center;
-	padding-top: 10%; 
-	padding-bottom: 1%;
+	padding-top: 7%; 
+	padding-bottom: 1.2%;
+}
+
+#logo-size{
+	width: 40%;
+	padding: 10px;
 }
 
 #conIcoReds{
@@ -17,8 +24,12 @@
 
 .imagen{
 	width: 100%;
+	box-shadow: 2px 2px 5px black;
+	border-radius: 5px;
+}
+
+#espacio-ima{
 	padding: 85px 0 85px 0;
-	/*box-shadow: 2px 2px 5px black;*/
 }
 
 #buscar{
@@ -41,6 +52,27 @@
 
 .blogs:hover{
 	text-decoration: none;
+}
+
+
+.hover1:hover{
+	background-color: #e0f2f1;
+}
+
+.color-m{
+	background-color: rgba(200,183,183,0.6);
+}
+
+.color-b{
+	background-color: white;
+}
+
+.color-a{
+	background-color: #b2dfdb;
+}
+
+.redondeo{
+	border-radius: 2px;
 }
 
 /* --------- Gastronimía ---------- */
@@ -99,6 +131,11 @@
 
 .lista{
 	list-style: none;
+}
+
+.centrar{
+	margin: auto;
+	text-align: center;
 }
 
 
@@ -161,7 +198,7 @@ nav {
 .fondo{
 	background-image: url(../imagenes/fondo.png);
 	background-attachment: fixed;
-	background-repeat: repeat;
+	background-repeat: no-repeat;
 	width: 100%; 
 }
 
