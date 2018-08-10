@@ -60,7 +60,7 @@
 }
 
 .color-m{
-	background-color: rgba(200,183,183,0.6);
+	background-color: #b0a9a3;
 }
 
 .color-b{
@@ -68,7 +68,7 @@
 }
 
 .color-a{
-	background-color: #b2dfdb;
+	background-color: #715743;
 }
 
 .redondeo{
@@ -138,6 +138,26 @@
 	text-align: center;
 }
 
+.derecha{
+	float: right;
+}
+
+.comentarios-deco{
+	margin-right: 10PX;
+	border-radius: 15px;
+	background-color: #e0e0e0;
+}
+
+.posicion-ima{
+	margin: auto;
+}
+
+.gur-fondog{
+	background-image: url(../imagenes/fondo2.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	width: 100%; 
+}
 
 /*------- Turismo --------*/
 
@@ -157,6 +177,10 @@ nav {
 
 .imagen_x100{
 	width: 100%;
+}
+
+.imagen_x95{
+	width: 95%;
 }
 
 .imagen_x20{
@@ -198,7 +222,6 @@ nav {
 .fondo{
 	background-image: url(../imagenes/fondo.png);
 	background-attachment: fixed;
-	background-repeat: no-repeat;
 	width: 100%; 
 }
 
